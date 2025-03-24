@@ -98,10 +98,10 @@ def parse():
         if i % 2 == 0:
             if usercol.find_one({responselist[i-1][0]: responselist[i-1][1]}) == None:
                 usercol.insert_one({responselist[i-1][0]: {
-                    "city": responselist[i-1][1],
                     "lat": coords[i][0],
-                    "lng": coords[i][1]
-                    
+                    "lng": coords[i][1],
+                    "altitude": 0.2,
+                    "color": "#00ff33"
                     }
                 })
     for document in usercol.find():
@@ -113,6 +113,53 @@ def parse():
         f.close
 
     return responselistreal
+
+
+@app.route("/getdata", methods=["GET"])
+def getdata():
+    if "name" not in session:
+        return jsonify({"error": "Session name not found"}), 400
+
+    mycol = mydb[session["name"]]
+    lat_lng_list = []
+
+    for document in mycol.find({}, {"_id": 0}):  # Exclude _id for cleaner output
+        for value in document.values():  # Get nested dictionary dynamically
+            if isinstance(value, dict) and "lat" in value and "lng" in value:
+                lat_lng_list.append({
+                    "lat": value["lat"],
+                    "lng": value["lng"],
+                    "altitude": "0.2",
+                    "color": "#ffff00"
+                })
+
+    return jsonify(lat_lng_list)
+
+
+
+@app.route("/lost", methods=["GET"])
+def lost():
+    retdict = {}
+    retstatement = []
+    
+    for i in range(2):
+        if i % 2 == 0:
+            retstatement.append(str(len("h")))
+            retstatement.append(str(len("hello world")))
+        else:
+            retstatement.append("11")
+            retstatement.append(str(len("h")) + "_")
+
+    if len(retstatement) % 2 == 0:
+        for j in range(0, len(retstatement), 2):
+            retdict[retstatement[j]] = retstatement[j+1]
+
+    return jsonify(retdict)
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+
 
  
 
