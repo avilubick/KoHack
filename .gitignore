@@ -1,0 +1,7 @@
+.env
+.venv
+*test.py
+*mongodb.py
+*node_modules/*
+*.pyc
+*server/flask_session/*

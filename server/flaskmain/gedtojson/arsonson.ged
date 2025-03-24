@@ -1,0 +1,207 @@
+0 HEAD
+1 SUBM @SUBM1@
+
+1 NAME David /Aronson/
+2 GIVN David
+2 SURN Aronson
+2 SOUR @S848138121@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Wylie E. Groves High School; Year: 1987
+3 _APID 1,1265::620396228
+2 SOUR @S848138121@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Wylie E. Groves High School; Year: 1986
+3 _APID 1,1265::1258617992
+3 _APID 1,1265::1258618158
+3 _APID 1,1265::1258618060
+2 SOUR @S848138129@
+3 _APID 1,1788::96233194
+2 SOUR @S848138112@
+3 PAGE New York County Clerk's Office; New York, New York; Borough: Manhattan
+3 _APID 1,61406::10000618
+1 SEX M
+1 FAMC @F10@
+1 FAMC @F7@
+1 FAMC @F9@
+1 FAMS @F5@
+1 BIRT
+2 DATE 13 Oct 1970
+2 PLAC Philadelphia, Pennsylvania, USA
+2 SOUR @S848138121@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Wylie E. Groves High School; Year: 1987
+3 _APID 1,1265::620396228
+2 SOUR @S848138121@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Wylie E. Groves High School; Year: 1986
+3 _APID 1,1265::1258617992
+3 _APID 1,1265::1258618158
+3 _APID 1,1265::1258618060
+1 RESI
+2 DATE 1986
+2 PLAC Beverly Hills, Michigan, USA
+2 SOUR @S848138121@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Wylie E. Groves High School; Year: 1986
+3 _APID 1,1265::1258617992
+3 _APID 1,1265::1258618158
+3 _APID 1,1265::1258618060
+1 RESI
+2 DATE 1987
+2 PLAC Beverly Hills, Michigan, USA
+2 SOUR @S848138121@
+3 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Wylie E. Groves High School; Year: 1987
+3 _APID 1,1265::620396228
+1 RESI
+2 DATE 1992
+2 PLAC Somerville, MA
+2 SOUR @S848138129@
+3 _APID 1,1788::96233194
+1 RESI
+2 DATE 1993
+2 PLAC Acton, MA
+2 SOUR @S848138129@
+3 _APID 1,1788::96233194
+1 SOUR @S848138121@
+2 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Wylie E. Groves High School; Year: 1987
+2 _APID 1,1265::620396228
+1 SOUR @S848138121@
+2 PAGE "U.S., School Yearbooks, 1880-2012"; School Name: Wylie E. Groves High School; Year: 1986
+2 _APID 1,1265::1258617992
+2 _APID 1,1265::1258618158
+2 _APID 1,1265::1258618060
+1 SOUR @S848138129@
+2 _APID 1,1788::96233194
+1 SOUR @S848138112@
+2 PAGE New York County Clerk's Office; New York, New York; Borough: Manhattan
+2 _APID 1,61406::10000618
+1 OBJE @O2@
+2 _PRIM Y
+2 _CROP
+3 _LEFT 76
+3 _TOP 88
+3 _WDTH 305
+3 _HGHT 351
+3 _TYPE primary
+1 OBJE @O1@
+0 @I262207771451@ INDI
+1 NAME Stephen /Aronson/
+2 GIVN Stephen
+2 SURN Aronson
+1 SEX M
+1 FAMC @F1@
+1 FAMS @F7@
+1 BIRT
+2 PLAC Rhode Island, USA
+0 @I262207771556@ INDI
+1 NAME Edna /Selig/
+2 GIVN Edna
+2 SURN Selig
+1 SEX F
+1 FAMC @F2@
+1 FAMS @F7@
+1 BIRT
+2 PLAC Massachusetts, USA
+0 @I262207771793@ INDI
+1 NAME Albert /Aronson/
+2 GIVN Albert
+2 SURN Aronson
+1 SEX M
+1 FAMS @F1@
+0 @I262207771807@ INDI
+1 NAME Marcia //
+2 GIVN Marcia
+1 SEX F
+1 FAMS @F1@
+0 @I262207771825@ INDI
+1 NAME Harry /Selig/
+2 GIVN Harry
+2 SURN Selig
+1 SEX M
+1 FAMS @F2@
+0 @I262207771849@ INDI
+1 NAME Jeanette //
+2 GIVN Jeanette
+1 SEX F
+1 FAMS @F2@
+0 @I262207773434@ INDI
+1 NAME Liana /Rosario/
+2 GIVN Liana
+2 SURN Rosario
+2 SOUR @S848138112@
+3 PAGE New York County Clerk's Office; New York, New York; Borough: Manhattan
+3 _APID 1,61406::100000618
+1 SEX F
+1 FAMS @F5@
+1 BIRT
+2 DATE 14 Apr 1969
+2 PLAC New York City, New York, USA
+1 SOUR @S848138112@
+2 PAGE New York County Clerk's Office; New York, New York; Borough: Manhattan
+2 _APID 1,61406::100000618
+0 @I262207773499@ INDI
+1 NAME Hailey London /Aronson/
+2 GIVN Hailey London
+2 SURN Aronson
+1 FAMC @F5@
+1 BIRT
+2 DATE 08 Mar 2000
+2 PLAC New York City, New York, USA
+0 @I262207773578@ INDI
+1 NAME Rachel Elise /Aronson/
+2 GIVN Rachel Elise
+2 SURN Aronson
+1 SEX F
+1 FAMC @F5@
+1 BIRT
+2 DATE 28 JUl 2003
+0 @I262207773815@ INDI
+1 NAME George William /Dunn/
+2 GIVN George William
+2 SURN Dunn
+1 SEX M
+1 FAMS @F9@
+1 BIRT
+2 DATE 3 Feb 1949
+1 DEAT
+2 DATE 03 May 2018
+2 PLAC Atlantic City, Atlantic, New Jersey, USA
+0 @I262207786501@ INDI
+1 NAME Marie L /Langner/
+2 GIVN Marie L
+2 SURN Langner
+2 SOUR @S848138345@
+3 _APID 1,1732::281783309
+2 SOUR @S848138129@
+3 _APID 1,1788::258072842
+2 SOUR @S848138256@
+3 PAGE The News Journal; Publication Date: 17/ Dec/ 1992; Publication Place: Wilmington, Delaware, United States of America; URL: https://www.newspapers.com/image/158882915/?article=c35a570a-5d30-4739-b285-3a8086a55d4e&focus=0.50848895,0.20532846,0.669899
+4 CONC 4,0.4516
+3 _APID 1,61843::352990491
+1 SEX F
+1 FAMC @F4@
+1 FAMS @F10@
+1 BIRT
+2 DATE 4 Feb 1950
+2 SOUR @S848138345@
+3 _APID 1,1732::281783309
+1 RESI
+2 DATE 1996
+2 PLAC Junction City, KY
+2 SOUR @S848138129@
+3 _APID 1,1788::258072842
+1 RESI
+2 PLAC Philadelphia, Pennsylvania, USA
+2 SOUR @S848138345@
+3 _APID 1,1732::281783309
+1 RESI
+2 PLAC Richmond, VA
+2 SOUR @S848138129@
+3 _APID 1,1788::258072842
+1 SOUR @S848138345@
+2 _APID 1,1732::281783309
+1 SOUR @S848138129@
+2 _APID 1,1788::258072842
+1 SOUR @S848138256@
+2 PAGE The News Journal; Publication Date: 17/ Dec/ 1992; Publication Place: Wilmington, Delaware, United States of America; URL: https://www.newspapers.com/image/158882915/?article=c35a570a-5d30-4739-b285-3a8086a55d4e&focus=0.50848895,0.20532846,0.669899
+3 CONC 4,0.4516
+2 _APID 1,61843::352990491
+1 OBJE @O1@
+1 _MTTAG @T116560@
+1 _MTTAG @T13@
+0 @I262210798147@ INDI
