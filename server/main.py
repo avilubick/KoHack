@@ -90,7 +90,6 @@ def parse():
             if location:
                 latitude = location.latitude
                 longitude = location.longitude
-                print(f"Latitude: {latitude}, Longitude: {longitude}")
                 coords.append([latitude,latitude])
     for i in range(len(namelist)):
         responselist.append([namelist[i],placelist[i]])
@@ -108,9 +107,8 @@ def parse():
     for document in usercol.find():
         responselistreal.append(document)
     
-    print(responselistreal)
 
-    with open("tohaim.json", "w") as f:
+    with open("parceddata.json", "w") as f:
         json.dump(responselistreal, f, indent=2)
         f.close
 
