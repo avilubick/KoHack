@@ -2,6 +2,8 @@
 .venv
 *test.py
 *mongodb.py
-*node_modules/*
+*client/my-app/node_modules/
 *.pyc
 *server/flask_session/*
+*client/my-app/flask_session/*
+*flask_session

@@ -38,9 +38,6 @@ function Home() {
           <Button sx={{ fontSize: "1.2rem", padding: "12px 24px" }}>
             <Link color="#ffffff" href="/login" underline="none">Login</Link>
           </Button>
-          <Button sx={{ fontSize: "1.2rem", padding: "12px 24px" }}>
-            <Link color="#ffffff" href="/globe" underline="none">JGlobe</Link>
-          </Button>
         </ButtonGroup>
         }     
       </Box>

@@ -1,6 +1,6 @@
 import re
-
-class Parser:
+#https://codesandbox.io/p/sandbox/blissful-elbakyan-tofq8?file=%2Fsrc%2Fsimpsons.ts%3A15%2C20
+class Parser:   #make parser class
     def __init__(self):
         self.result = []
 

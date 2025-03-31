@@ -10,15 +10,31 @@ import {
   } from "@mui/material";
   import { LockOutlined } from "@mui/icons-material";
   import { useState } from "react";
+  import { useNavigate } from "react-router-dom";
   import { Link } from "react-router-dom";
+
   
   const Register = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [error, setError] = useState("");
+    const navigate = useNavigate();
   
-    const handleRegister = async () => {};
-  
+    const handleRegister = async () => {
+      try {
+        const response = await fetch(`http://127.0.0.1:5000/register/${name}/${password}`);
+        const data = await response.json();
+        if (data.status === "Registration successful") {
+          navigate("/Login");
+        } else {
+          setError("User already exists");
+        }
+      } catch (err) {
+        setError("Server error. Please try again later.");
+      }
+    };
+
     return (
       <>
         <Container maxWidth="xs">
@@ -50,7 +66,7 @@ import {
                   />
                 </Grid>
   
-                <Grid item xs={12}>
+                {/* <Grid item xs={12}>
                   <TextField
                     required
                     fullWidth
@@ -60,7 +76,7 @@ import {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
-                </Grid>
+                </Grid> */}
                 <Grid item xs={12}>
                   <TextField
                     required
