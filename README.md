@@ -1,3 +1,10 @@
+Link to Ramaz article about the event:
+[www.ramaz.org/ramaz-news/~board/us-news/post/students-build-and-present-an-app-at-a-the-two-day-hackathon](www.ramaz.org/ramaz-news/~board/us-news/post/students-build-and-present-an-app-at-a-the-two-day-hackathon)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
