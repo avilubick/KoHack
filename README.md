@@ -1,5 +1,5 @@
-Link to Ramaz article about the event:
-[www.ramaz.org/ramaz-news/~board/us-news/post/students-build-and-present-an-app-at-a-the-two-day-hackathon](www.ramaz.org/ramaz-news/~board/us-news/post/students-build-and-present-an-app-at-a-the-two-day-hackathon)
+Link to Ramaz article about the event:\
+[www.ramaz.org/ramaz-news/~board/us-news/post/students-build-and-present-an-app-at-a-the-two-day-hackathon](https://www.ramaz.org/ramaz-news/~board/us-news/post/students-build-and-present-an-app-at-a-the-two-day-hackathon)
 
 
 
